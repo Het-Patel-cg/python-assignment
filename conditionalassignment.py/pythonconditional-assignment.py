@@ -128,4 +128,116 @@ elif number == 3:
 else:
      print ("other")
 
+age = 20
+
+if age >= 18:
+     if age <= 60:
+          print ("Age is between 18 and 60")
+
+marks = int(input("enter your marks:"))
+
+if marks >= 40:
+     if marks <= 75:
+          print ("good")
+     else:
+          print ("pass")
+else:
+     print ("fail")
+
+
+age = int(input("enter your age:"))
+
+if age >=18:
+     if age <=60:
+          print ("minor")
+     else :
+          print ("adult")
+else:
+     print ("senior citizen")
+
+number = 4774
+
+if number >= 0:
+     if number <= 0:
+          print ("non zero")
+     else:
+          print ("positive")
+else:
+     print ("negative")
+
+
+if age >= 18 and marks >= 40:
+     print("Age is at least 18 and marks are at least 40")
+
+
+number = 18
+
+if number <10 or number >100:
+     print("special")
+
+
+has_id = True
+
+if age >= 18 and has_id:
+     print("allowed")
+
+
+first_number=17
+second_number=18
+
+if first_number >10 and second_number >10:
+     print("both are greater than 10")
+
+
+number = 47
+
+if number <0 or number >100:
+     print("done")
+
+
+
+is_closed = False
+
+if not is_closed:
+    print("The shop is open")
+
+
+num= int(input("enter a number"))
+
+if num >= 10 and num <= 50:
+     print ("The num is between 10 and 50" )
+else:
+     print("The num is not between 10 and 50")
+
+
+num= int(input("enter a number"))
+
+if num <10 or num >50:
+     print ("the number is outside the range 10 to 50")
+else:
+     print ("the number is within the range 10 to 50")
+
+
+is_student = True
+has_id = True
+has_ticket = True
+
+if is_student and has_id and has_ticket:
+     print("allowed")
+else:
+     print("not allowed")
+
+
+
+age = int(input("enter your age"))
+marks = int("input"("enter your marks"))
+has_id = True
+
+if age >=18 and marks >=40 and has_id:
+     print("eligible")
+else:
+     ("not eligible")
+
+
+
 	
