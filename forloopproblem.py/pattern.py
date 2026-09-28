@@ -9,6 +9,13 @@
 #         print(j, end=" ")
 #     print()
 
+# question 2 reverse printing
+# for i in range(1, 4):
+#     for j in range(3, 0, -1):
+#         print(j, end=" ")
+#     print()
+
+
 #3 que
 # for i in range(3):
 #     for j in range(3):
@@ -23,7 +30,7 @@
 
 #5 que
 # for i in range(5,0,-1):
-#     for j in range(1, i +1 ):
+#     for j in range(1, i + 1 ):
 #         print("*", end=" ")
 #     print()
 
@@ -34,11 +41,6 @@
 #         print(j, end=" ")
 #     print()
 
-# question 2 reverse printing
-# for i in range(1, 4):
-#     for j in range(3, 0, -1):
-#         print(j, end=" ")
-#     print()
 
 #7 que
 # rows = 5
@@ -157,7 +159,6 @@
 #     for j in range(i, 0, -1):
 #         print(j, end=" ")
 #     print()
-
 
 
 # 24 que
